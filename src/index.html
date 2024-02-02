@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    text-align: center; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    max-width: 400px; 
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px; 
+}
+
+h2 {
+    margin-top: 30px; 
+}
+
+button {
+    padding: 10px 20px; 
+    margin: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+span {
+    font-weight: bold; 
+    color: #333; 
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>WELCOME TO RPS GAME <span id="Welcome"></span></h1>
+    <h2>Computer Choice: <span id="Computer-choice"></span> </h2>
+    <h2>User's choice: <span id="User-choice"></span> </h2>
+    <h2>Result: <span id="Result" ></span> </h2>
+
+    <button id="Rock" >Rock</button>
+    <button id="Paper" >Paper</button>
+    <button id="Scissors" >Scissors</button>
+</div>
+</body>
+<script src="index.js" charset="UTF-8"></script>
+</html>
